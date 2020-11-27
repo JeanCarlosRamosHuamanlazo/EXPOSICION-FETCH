@@ -1,0 +1,34 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Juan Villegas",
+      "semestre": "V"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Ramos",
+      "semestre": "VII"
+    },
+    {
+      "id": 4,
+      "nombre": "Yulgo Soto",
+      "semestre": "VII"
+    },
+    {
+      "id": 5,
+      "nombre": "Nacho Alarcon",
+      "semestre": "VII"
+    },
+    {
+      "nombre": "Julio Espinoza",
+      "semestre": "VII",
+      "id": 6
+    },
+    {
+      "nombre": "Sergio Valerio",
+      "semestre": "VIII",
+      "id": 7
+    }
+  ]
+}
