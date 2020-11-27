@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="Fetch" content="Practicando con JS Fetch">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Practicando con JS Fetch</title>
+
+</head>
+
+<body>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <!-- Jumbotron es un componente ligero y flexible para mostrar contenido - Es una propiedad de un elemnto que establece el espacio requerido en la parte inferior de un elemento -->
+        <h1>Fetch API en JavaScript</h1>
+        <p id="parrafo1">La evolución natural de XHR en el nuevo JS</p>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="navegación-principal" id="nav-pri">
+                <a href="#home" class="active">Home</a>
+                <a href="#fetch">Fetch</a>
+                <a href="#ejercicios">Ejercicios</a>
+        </nav>
+
+        <img src="img/JS.png" class="imagenjs" alt="logo JS">
+
+        </div>
+    </header>
+
+    <section id="ejercicios">
+        <div class="li">
+            <div class="barra">
+                <br>
+                <h2>Ejercicios</h2>
+                <br>
+
+                <div class="ejercicio1">
+                    <br>
+                    <h3>Ejercicio 1</h3>
+                    <br>
+
+                    <div class="ejer1" id="pregunta1">
+                        <h3>Crear un json con 4 atributos de 6 estudiantes VII semestre FIS UNCP.</h3>
+                        <h3>Desarrollar un código en HTML y JS para:</h3>
+                        <br>
+                        <h4>1. Leer a través de fetch.</h4>
+                        <h4>2. Verificar si respuesta ok.</h4>
+                        <h4>3. Mostrar datos en una tabla vertical.</h4>
+                    </div>
+
+                    <div class="ejer1" id="respuesta1">
+                        <h3>Listado de Estudiantes</h3>
+                        <div class="container my-5">
+                            <button class="btn btn-primary btn-lg" id="lista-estudiantes">Obtener</button>
+                            <div class="mt-5"></div>
+
+                            <table class="table table-striped">
+                                <tbody id="contenido"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ejercicio2">
+                    <br>
+                    <h3>Ejercicio 2</h3>
+                    <br>
+
+                    <div class="ejer1" id="pregunta1">
+                        <h3>Crear un json con 4 atributos (un atributo foto:link a imagen de internet) de 6 productos.</h3>
+                        <h3>Desarrollar un código en HTML y JS para:</h3>
+                        <br>
+                        <h4>1. Leer a través de fetch y método .text().</h4>
+                        <h4>2. Verificar si respuesta ok.</h4>
+                        <h4>3. Mostrar datos en una tabla horizontal.</h4>
+                    </div>
+
+                    <div class="ejer1" id="respuesta1">
+                        <h3>Listado de Productos</h3>
+
+                        <table class="table table-striped" id="list-product">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Marca</th>
+                                    <th scope="col">Cantidad</th>
+                                    <th scope="col">Pre. Unitario</th>
+                                    <th scope="col">Precio</th>
+                                    <th scope="col">Imagen</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="ejercicio3">
+                    <br>
+                    <h3>Ejercicio 3</h3>
+                    <br>
+
+                    <div class="ejer1" id="pregunta1">
+                        <h3>Crear un json con 4 atributos (un atributo foto:link a imagen de internet) de 6 productos.</h3>
+                        <h3>Desarrollar un código en HTML y JS para:</h3>
+                        <br>
+                        <h4>1. Leer a través de fetch y método .json().</h4>
+                        <h4>2. Verificar si respuesta ok.</h4>
+                        <h4>3. Mostrar datos en una tabla horizontal.</h4>
+                    </div>
+
+                            
+                                <div id="respuesta3">
+
+                                    <table class="table table-striped" id="lista2">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nombre</th>
+                                                <th scope="col">Marca</th>
+                                                <th scope="col">Cantidad</th>
+                                                <th scope="col">Pre. Unitario</th>
+                                                <th scope="col">Precio</th>
+                                                <th scope="col">Imagen</th>
+                                               
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                
+                                        </tbody>
+                                    </table>
+                                </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="fetch.js"></script>
+
+</body>
+
+</html>

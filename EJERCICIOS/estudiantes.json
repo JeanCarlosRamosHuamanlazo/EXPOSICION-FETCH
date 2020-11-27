@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Andres",
+        "codigo": "2017100275A",
+        "correo": "e_andres@uncp.edu.pe",
+        "telefono": "964364433"
+    },
+    {
+        "id": 2,
+        "nombre": "Valeria",
+        "codigo": "2017200563V",
+        "correo": "e_valeria@uncp.edu.pe",
+        "telefono": "964881545"
+    },
+    {
+        "id": 3,
+        "nombre": "Gabriel",
+        "codigo": "2017300177G",
+        "correo": "e_gabriel@uncp.edu.pe",
+        "telefono": "964539919"
+    },
+    {
+        "id": 4,
+        "nombre": "Fiorela",
+        "codigo": "2017400691F",
+        "correo": "e_fiorela@uncp.edu.pe",
+        "telefono": "964177822"
+    },
+    {
+        "id": 5,
+        "nombre": "Enrique",
+        "codigo": "2017500452E",
+        "correo": "e_enrique@uncp.edu.pe",
+        "telefono": "964327102"
+    },
+    {
+        "id": 6,
+        "nombre": "Josue",
+        "codigo": "2017600989J",
+        "correo": "e_josue@uncp.edu.pe",
+        "telefono": "964057623"
+    }
+]

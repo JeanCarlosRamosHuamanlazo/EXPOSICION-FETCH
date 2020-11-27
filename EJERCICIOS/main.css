@@ -1,0 +1,107 @@
+body {
+  background-color: #dee2e6;
+
+}
+
+.navegación-principal {
+  overflow: hidden;
+}
+
+.navegación-principal a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navegación-principal a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navegación-principal a.active {
+  background-color: #ebda1d;
+  color: black;
+}
+
+.ejercicios {
+  float: left;
+  overflow: hidden;
+}
+
+.imagenjs {
+  width: 100%;
+  height: auto;
+}
+
+.li {
+  border-left: 6px solid #dee2e6;
+  height: 1000px;
+}
+
+.barra {
+  background: black;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+#parrafo1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  color: #ebda1d;
+}
+
+.ejercicio1 {
+  background-color: #ebda1d;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.ejercicio2 {
+  background-color: #ebda1d;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.ejercicio3 {
+  background-color: #ebda1d;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.ejer1 {
+  margin: 1em;
+  padding: 1em;
+  float: left;
+}
+
+#pregunta1 {
+  width: 32%;
+  background-color: #dee2e6;
+
+}
+
+#respuesta1 {
+  width: 64%;
+  background-color: #e9ecef;
+}
+
+.ejercicio2 {
+  background-color: #ebda1d;
+  padding: 1em;
+  overflow: hidden;
+}
+
+#respuesta3 {
+  width: 64%;
+  background-color: #e9ecef;
+}
